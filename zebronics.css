@@ -1,0 +1,19 @@
+.logo>img{
+    width: 50%;
+    margin-left: 10%;
+}
+.hsize{
+    height: 7%;
+}
+.btn{
+    color: black;
+}
+.hleft{
+    margin-left: -5%;
+}
+.hright{
+    margin-right: 8%;
+}
+.ssize>img{
+    height: 80% !important;
+}
