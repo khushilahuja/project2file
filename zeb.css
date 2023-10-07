@@ -1,0 +1,378 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+/* navigation bar */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    /* border: 2px solid black; */
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#logo {
+    display: flex;
+    /* size: 10px; */
+    padding: 0px 5rem;
+}
+
+#list1 {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    list-style: none;
+    margin-top: -7px;
+    font-size: 14px;
+}
+
+#list1 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    /* padding: 18px; */
+    margin: 20px;
+}
+
+#list1 a:hover {
+    color: rgb(0, 183, 255);
+    text-decoration: underline;
+    transition: 0.2s linear;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.search:hover {
+    color: rgb(0, 183, 255);
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+/* carousel part */
+
+#carousel img {
+    width: 100%;
+    height: 66rem;
+}
+
+#Csize {
+    height: 650px;
+}
+
+#mrg {
+    margin-left: 22%;
+}
+
+#top {
+    top: 5px;
+}
+
+/* ytclip */
+
+#ytclip {
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.video iframe {
+    display: inline-block;
+    width: 49%;
+    height: 85%;
+    margin-top: 50px;
+    padding: 7px;
+}
+
+.video {
+    height: 100%;
+    /* display: block; */
+}
+
+/* TRENDING categories */
+
+#tcontainer {
+    /* display: flex; */
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 350px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#tcontainer h2 {
+    font-size: 30px;
+
+}
+
+/* items */
+
+
+.itemcont {
+    display: grid;
+    /* grid-template-columns: 150px 150px 150px 150px 150px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.box {
+    /* border: 2px solid black; */
+    padding: 30px;
+    margin: 20px 10px;
+    /* background-color: black; */
+    border-radius: 5px;
+    background-image: url(images/instagram.png);
+}
+
+.box a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    font-family: 'Kanit', sans-serif;
+}
+
+.box a:hover {
+    color: yellow;
+    transition: 0.3s linear;
+}
+
+.box:hover {
+    background-color: rgb(0, 183, 255);
+    background-image: none;
+    transition: 0.3s linear;
+}
+
+/* social */
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social h2 {
+    font-size: 30px;
+}
+
+.social a {
+    text-decoration: none;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+
+/* moreitems */
+
+
+.morecont {
+    width: 95%;
+    height: 580px;
+    text-align: center;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+}
+
+.moreitem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box1 {
+    /* border: 2px solid black; */
+    /* background-color: gray; */
+    padding: 130px;
+    margin: 2px;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2022/3/QL/YB/LY/7102424/zebronics-zeb-duke-wireless-bluetooth-500x500.jpg);
+    background-size: 100%;
+}
+
+.box1:hover {
+    background-image: url(images/facebook.png);
+    /* text-shadow: 20px; */
+    background-size: 100%;
+    transition: 0.3s linear;
+}
+
+/* offer */
+
+.offer img {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* msgg */
+
+.msg {
+    width: 80%;
+    height: 38px;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.msg h3 {
+    font-size: 25px;
+
+}
+
+p {
+    /* text-align: center; */
+    margin: auto;
+    width: 80%;
+    font-size: 15px;
+}
+p a{
+    color: black;
+}
+p a:hover{
+    color: black;
+}
+
+
+/* footerrr */
+
+footer{
+    background-color: rgb(231, 226, 219);
+    padding: 50px 0;
+}
+
+.fcontainer{
+    max-width: 90%;
+    /* background-color: lightcoral; */
+    margin: auto;
+}
+
+.footercol ul{
+    list-style: none;
+}
+
+.rowft{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.footercol{
+    width: 25%;
+    padding: 30px 15px;
+}
+
+.footercol h4{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+	position: relative;
+}
+.footercol h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footercol ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footercol ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footercol ul li{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footercol ul li a:hover{
+	color: rgb(0, 183, 255);
+	padding-left: 8px;
+}
+.footercol .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color:white;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+}
+.footercol .social-links a:hover{
+	color: black;
+	background-color: rgb(0, 183, 255);
+}
+
+                                        /*responsive*/
+                                        /* @media(max-width: 767px){
+                                        .footer-col{
+                                            width: 50%;
+                                            margin-bottom: 30px;
+                                        }
+                                        }
+                                        @media(max-width: 574px){
+                                        .footer-col{
+                                            width: 100%;
+                                        }
+                                        } */
+
+
+                                        
+/* ending */
+
+.end{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+.end p{
+    text-align: center;
+    color: white;
+}
